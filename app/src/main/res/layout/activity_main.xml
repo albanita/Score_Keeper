@@ -26,7 +26,8 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_minus"
-            android:contentDescription="@string/minus_button" />
+            android:contentDescription="@string/minus_button"
+            android:onClick="decreaseScore"/>
 
         <TextView
             android:id="@+id/score_1"
@@ -43,7 +44,8 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_plus"
-            android:contentDescription="@string/plus_button" />
+            android:contentDescription="@string/plus_button"
+            android:onClick="increaseScore"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -66,7 +68,8 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_minus"
-            android:contentDescription="@string/minus_button" />
+            android:contentDescription="@string/minus_button"
+            android:onClick="decreaseScore"/>
 
         <TextView
             android:id="@+id/score_2"
@@ -83,6 +86,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:src="@drawable/ic_plus"
-            android:contentDescription="@string/plus_button" />
+            android:contentDescription="@string/plus_button"
+            android:onClick="increaseScore"/>
     </RelativeLayout>
 </LinearLayout>
