@@ -7,4 +7,7 @@
     <string name="score_number">0</string>
     <string name="plus_button_description">Button Plus</string>
     <string name="minus_button_description">Button Minus</string>
+
+    <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
 </resources>
